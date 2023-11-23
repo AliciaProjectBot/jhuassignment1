@@ -1,0 +1,7 @@
+body {
+	font-family: "Eb Garamond", sans-serif;
+}
+
+#our-menu {
+	background-color: yellow;
+}
