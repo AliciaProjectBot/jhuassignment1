@@ -3,14 +3,16 @@ body {
 }
 
 #our-menu {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	text-align: center;
 }
 
 /* make everything float */
 .banana, .apple, .pear {
 	float: right;
-	margin-right: 10px;
+	margin: 20px;
+	width: 33%;
+	box-sizing: border-box;
 }
 
 /* banana container */
@@ -24,6 +26,7 @@ body {
 	background-color: yellow;
 	text-align: left;
 	border: 3px solid black;
+
 }
 
 /* apple container */
