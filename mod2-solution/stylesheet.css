@@ -17,13 +17,13 @@ body {
 
 /* banana container */
 #banana-title {
-	background-color: orange;
+	background-color: #ffaaa5;
 	text-align:right;
 	font-size: 1.1em;
 	border: 3px solid black;
 }
 .banana {
-	background-color: yellow;
+	background-color: #fcf8f3;
 	text-align: left;
 	border: 3px solid black;
 
@@ -31,26 +31,26 @@ body {
 
 /* apple container */
 #apple-title {
-	background-color: red;
+	background-color: #fcf8f3;
 	text-align: right;
 	font-size: 1.1em;
 	border: 3px solid black;
 }
 .apple {
-	background-color: green;
+	background-color: #ffd3b6;
 	text-align: left;
 	border: 3px solid black;
 }
 
 /* pear container */
 #pear-title {
-	background-color: green;
+	background-color: #ffd3b6;
 	text-align: right;
 	font-size: 1.1em;
-	border: 3px, solid black;
+	border: 3px solid black;
 }
 .pear {
-	background-color: orange;
+	background-color: #698474;
 	text-align: left;
 	border: 3px solid black;
 }
