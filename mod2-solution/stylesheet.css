@@ -9,9 +9,9 @@ body {
 
 /* make everything float */
 .banana, .apple, .pear {
-	float: right;
+	float: left;
 	margin: 20px;
-	width: 33%;
+	width: 30%;
 	box-sizing: border-box;
 }
 
