@@ -21,6 +21,7 @@ body {
 
 /* restricting the width of content box titles */
 #banana-title, #apple-title, #pear-title {
+	text-align: right;
 	box-sizing: content-box;
 }
 
