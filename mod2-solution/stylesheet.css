@@ -15,10 +15,15 @@ body {
 	box-sizing: border-box;
 }
 
+/* restricting the width of content box titles */
+#banana-title, #apple-title, #pear-title {
+	box-sizing: content-box;
+}
+
 /* banana container */
 #banana-title {
 	background-color: #ffaaa5;
-	text-align:right;
+	text-align:center;
 	font-size: 1.1em;
 	border: 3px solid black;
 }
@@ -32,7 +37,7 @@ body {
 /* apple container */
 #apple-title {
 	background-color: #fcf8f3;
-	text-align: right;
+	text-align: center;
 	font-size: 1.1em;
 	border: 3px solid black;
 }
@@ -45,7 +50,7 @@ body {
 /* pear container */
 #pear-title {
 	background-color: #ffd3b6;
-	text-align: right;
+	text-align: center;
 	font-size: 1.1em;
 	border: 3px solid black;
 }
