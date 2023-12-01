@@ -18,30 +18,31 @@ body {
 .banana, .apple, .pear {
 	float: left;
 	width: 23%;
+	border: 1px solid black;
 }
 #banana-title, #apple-title, #pear-title, {
 	font-size: 125%;
+	border: 1px solid black;
+	float: right;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
 #banana-p, #apple-p, #pear-p {
 	padding: 10px;
 	padding-top:40px;
-	border: 1px solid black;
 }
 
 /* banana container, base style */
 .banana {
 	background-color: #fcf8f3;
 	text-align: left;
-	border: 1px solid black;
 	margin:3.875% 3.875% 3.875% 7.75%;
 }
 
 #banana-title {
 	background-color: #ffaaa5;
 	text-align:right;
-	border: 1px solid black;
-	float: right;
 	clear:left;
 	}
 
@@ -51,15 +52,12 @@ body {
 .apple {
 	background-color: #ffd3b6;
 	text-align: left;
-	border: 1px solid black;
 	margin: 3.785% 3.785% 3.785% 3.785%;
 }
 
 #apple-title {
 	background-color: #fcf8f3;
 	text-align: right;
-	border: 1px solid black;
-	float: right;
 	clear:left;
 }
 
@@ -67,15 +65,12 @@ body {
 .pear {
 	background-color: #698474;
 	text-align: left;
-	border: 1px solid black;
 	margin: 3.875% 7.75% 3.875% 3.875%;
 }
 
 #pear-title {
 	background-color: #ffd3b6;
-	border: 1px solid black;
 	text-align: right;
-	float: right;
 }
 /* media queries */
 
