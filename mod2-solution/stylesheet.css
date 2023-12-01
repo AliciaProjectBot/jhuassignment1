@@ -11,80 +11,97 @@ body {
 #our-menu {
 	font-size: 175%;
 	text-align: center;
+	padding-top: 40px;
 }
 
 /* make everything float */
 .banana, .apple, .pear {
 	float: left;
-	width: 33%;
-	position: relative;
+	width: 23%;
+}
+#banana-title, #apple-title, #pear-title, {
+	font-size: 125%;
 }
 
-/* restricting the width of content box titles */
-#banana-title, #apple-title, #pear-title {
-	font-size: 125%;
-	text-align: right;
+#banana-p, #apple-p, #pear-p {
+	padding: 10px;
+	padding-top:40px;
+	border: 1px solid black;
 }
 
 /* banana container, base style */
-#banana-title {
-	background-color: #ffaaa5;
-	text-align:center;
-	font-size: 1.1em;
-	border: 3px solid black;
-	}
-
 .banana {
 	background-color: #fcf8f3;
 	text-align: left;
-	border: 3px solid black;
-	clear:both;
+	border: 1px solid black;
+	margin:3.875% 3.875% 3.875% 7.75%;
 }
+
+#banana-title {
+	background-color: #ffaaa5;
+	text-align:right;
+	border: 1px solid black;
+	float: right;
+	clear:left;
+	}
+
 
 /* apple container, base style */
 
 .apple {
 	background-color: #ffd3b6;
 	text-align: left;
-	border: 3px solid black;
+	border: 1px solid black;
+	margin: 3.785% 3.785% 3.785% 3.785%;
 }
 
 #apple-title {
 	background-color: #fcf8f3;
-	text-align: center;
-	font-size: 1.1em;
-	border: 3px solid black;
+	text-align: right;
+	border: 1px solid black;
+	float: right;
+	clear:left;
 }
 
 /* pear container, base style */
 .pear {
 	background-color: #698474;
 	text-align: left;
-	border: 3px solid black;
+	border: 1px solid black;
+	margin: 3.875% 7.75% 3.875% 3.875%;
 }
 
 #pear-title {
 	background-color: #ffd3b6;
-	text-align: center;
-	font-size: 1.1em;
-	border: 3px solid black;
+	border: 1px solid black;
+	text-align: right;
+	float: right;
 }
 /* media queries */
 
 /* tablet view */
 @media (min-width: 768px) and (max-width: 991px) {
 	.banana, .apple {
-		width: 50%;
+		width: 42.5%;
+	}
+	.banana {
+		margin:2.5% 2.5% 2.5% 5%;
+	}
+	.apple {
+		margin:2.5% 5% 2.5% 2.5%;
 	}
 	.pear {
-		width: 100%;
+		width: 90%;
+		margin: 2.5% 5% 2.5% 5%;
 	}
+	
 }
 
 /* mobile view */
 @media (max-width: 767px) {
 	.banana, .apple, .pear {
-		width: 100%;
+		width: 90%;
+		margin: 2.5% 5% 2.5% 5%;
 	}
 }
 
