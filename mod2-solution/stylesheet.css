@@ -3,6 +3,7 @@ body {
 }
 
 * {
+	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
 }
@@ -16,7 +17,6 @@ body {
 .banana, .apple, .pear {
 	float: left;
 	width: 33%;
-	box-sizing: border-box;
 	position: relative;
 }
 
@@ -24,23 +24,21 @@ body {
 #banana-title, #apple-title, #pear-title {
 	font-size: 125%;
 	text-align: right;
-	box-sizing: content-box;
 }
 
 /* banana container, base style */
-.banana {
-	background-color: #fcf8f3;
-	text-align: left;
-	border: 3px solid black;
-
-}
 #banana-title {
 	background-color: #ffaaa5;
 	text-align:center;
 	font-size: 1.1em;
 	border: 3px solid black;
-	position: absolute;
-	clear: right;
+	}
+
+.banana {
+	background-color: #fcf8f3;
+	text-align: left;
+	border: 3px solid black;
+	clear:both;
 }
 
 /* apple container, base style */
